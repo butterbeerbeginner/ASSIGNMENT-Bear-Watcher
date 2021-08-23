@@ -24,7 +24,6 @@ const handleButtonClick = (event) => {
   if (event.target.id === 'Submit') {
     console.warn('Submit Button Clicked');
   }
-  handleButtonClick();
 };
 
 const buttonEvents = () => {
