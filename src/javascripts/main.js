@@ -24,6 +24,7 @@ const handleButtonClick = (event) => {
   if (event.target.id === 'Submit') {
     console.log('Submit Button Clicked');
   }
+  handleButtonClick();
 };
 
 const buttonEvents = () => {
@@ -34,7 +35,6 @@ const init = () => {
   $('#app').html('<h1>Bear-Watcher</h1>');
   inputForm();
   buttonEvents();
-  handleButtonClick();
 };
 
 init();
