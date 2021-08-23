@@ -22,7 +22,7 @@ const inputForm = () => {
 
 const handleButtonClick = (event) => {
   if (event.target.id === 'Submit') {
-    console.log('Submit Button Clicked');
+    console.warn('Submit Button Clicked');
   }
   handleButtonClick();
 };
