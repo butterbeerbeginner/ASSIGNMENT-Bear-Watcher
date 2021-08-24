@@ -6,7 +6,7 @@ const bearInputForm = document.querySelector('#inputForm');
 const inputForm = () => {
   bearInputForm.innerHTML = `
 <div>
-    <form id="bearInputFormForm">
+    < id="bearInputFormForm">
       <div class="row g-3">
       <div class="col">
       <input type="text" class="form-control" placeholder="Bear Name" aria-label="Bear name">
@@ -16,7 +16,6 @@ const inputForm = () => {
       </div>
       </div>
      <button type="submit" class="btn btn-primary" id="Submit">Submit</button>
-    </form>
   </div>`;
 };
 
